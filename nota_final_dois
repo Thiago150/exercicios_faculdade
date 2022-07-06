@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void) {
+char: parar;
+float: notas;
+
+do{
+    printf("\n Digite a nota final do aluno (min: o, max: 10): ");
+    scanf("%f", &notas);
+
+} while (nota < 0 || nota > 10);
+
+return 0;
+}
+
+    /* code */
+
