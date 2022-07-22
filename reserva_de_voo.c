@@ -4,8 +4,8 @@ int main() {
     int mat [3] [5] = {
         1,1,1,0,-1,
         1,1,1,1,1,
-        0,0,-1,-1,-1
-    };
+        0,0,-1,-1,-1;
+    }
 
     int opcao;
     int numVoo;
@@ -29,7 +29,8 @@ int main() {
          }
             if (reservou == 1) printf ("\nSeu voo foi reservado com sucesso!");
             else printf ("\nNao ha poltrona disponivel nesse voo!");
-         }  else {
+         }  
+         else {
             printf("opcao invalida");
          } 
          break;
